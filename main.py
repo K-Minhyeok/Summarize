@@ -20,9 +20,9 @@ def summarize():
         else :
             summary.append("Fail to scrap")
 
-    # for i in range(len(summary)):
-    #     print(f'{i+1}: {summary[i]}')
-    #     print("------------------------------")
+    for i in range(len(summary)):
+        print(f'{i+1}: {summary[i]}')
+        print("------------------------------")
         
     # Parsing 
     # ex) 요약 내용: ~~~ --- 
